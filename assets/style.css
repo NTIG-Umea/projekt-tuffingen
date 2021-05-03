@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+   
+}
+nav{
+    background-color: blueviolet;
+    padding: 1rem
+    
+    
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+   
+}
+.sidebar ul li{
+    padding-bottom: 4rem;
+    
+}
+.sidebar ul{
+    list-style: none;
+    margin: 0;
+    
+}
+.sidebar{
+    width: 23%;
+    background-color: aquamarine;
+    
+}
+
