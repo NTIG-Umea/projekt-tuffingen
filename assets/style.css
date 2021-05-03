@@ -1,41 +1,69 @@
 body{
     margin: 0;
+    background-color: #F1F8FF;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 nav ul li a{
     text-decoration: none;
+    font-size: 1.2rem;
+    color: #313131;
+    transition: 0.5s;
     
+    
+}
+
+nav ul li a:hover{
+    color: #2E5D9D;
+    border-bottom: #2E5D9D solid 2px;
+}
+
+
+
+.logo a{
+    font-size: 1.5rem;
+    color: #2E5D9D;
+    
+}
+
+
+.blå{
+    color: #8EB3E5;
 }
 nav ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-   
+    padding-top: 6px;
 }
 nav{
-    background-color: blueviolet;
-    padding: 1rem
-    
-    
+    background-color: #FFFFFF;
+    padding: 0.3rem
 }
+
 
 .sidebar ul li a{
     text-decoration: none;
     font-size: 1.2rem;
-   
+    color: #313131;
+    padding-bottom: 25%;
 }
 .sidebar ul li{
-    padding-bottom: 4rem;
-    
+
 }
 .sidebar ul{
-    list-style: none;
     margin: 0;
-    
+    list-style: none;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
 }
 .sidebar{
     width: 23%;
-    background-color: aquamarine;
+    background-color: #8eb4e556;
+    height: 510px
     
 }
 
