@@ -93,7 +93,6 @@ nav{
 .pil{
     height: 20px;
     width: auto;
-    
 }
 
 .sidebar2{
@@ -112,7 +111,7 @@ nav{
     border-bottom: solid 3px #313131;
     width: 300px;
     margin-left: 20px;
-    margin-top:  ;
+    margin-top: 60px;
 }
 
 .med h1{
@@ -140,5 +139,7 @@ nav{
 .med h1{
     font-weight: 300;
     transform: translate(-10%);
+    font-size: 26px;
+    margin-top: 2px ;
 }
 
